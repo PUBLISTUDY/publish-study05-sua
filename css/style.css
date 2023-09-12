@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body{color:#121212}
+header{display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 19px 52px;}
+header .exit-box{padding: 18px;}
+
+main{ margin-bottom: 40px;}
+main .top-box{display: flex; flex-direction: column; align-items: center;}
+main .top-box .input-box{width: 450px; display: flex; flex-direction: row; align-items: center; justify-content: center; border: 1px solid #121212; border-radius: 6px; padding: 13px 16px; margin-bottom: 16px;}
+main .top-box .input-box input{width: 100%; border: none; }
+main .top-box .input-box input::placeholder{font-size: 16px; color: #121212;}
+main .top-box .input-box div{padding: 8px; margin-left: 8px;}
+
+main .top-box .tag-box{display: flex; flex-direction: row; justify-content: center; font-size: 14px; letter-spacing: -0.5px; margin-bottom: 48px;}
+main .top-box .tag-box p:not(:last-child){margin-right: 16px;}
+main .top-box .tag-box p:first-child{color: #807E7E;}
+main .top-box>p{font-size: 22px; margin-bottom: 24px;}
+
+main .bottom-box{width: 100%;}
+main .bottom-box .card-wrap{display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;}
+main .bottom-box .card-wrap .card-box{width: 100%; display: flex; flex-direction: row; justify-content: center; margin-bottom: 56px;}
+main .bottom-box .card-wrap .card-box .card:not(:last-child){margin-right: 32px;}
+main .bottom-box .card-wrap .card-box .card img{display: inline-block; margin-bottom: 12px;}
+main .bottom-box .card-wrap .card-box .card .txt> p{font-size: 16px; font-weight: 600; letter-spacing: -0.5px; margin-bottom: 4px;}
+main .bottom-box .card-wrap .card-box .card .txt .price{display: flex; flex-direction: row; align-items: center; font-size: 14px}
+main .bottom-box .card-wrap .card-box .card .txt .price p:first-child{margin-right: 12px; font-weight: 600;}
+main button{display: flex; flex-direction: row; justify-content: center; padding: 12px 26px; background: #121212; color: #fff; border-radius: 6px;}
